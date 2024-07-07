@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Style.css"> 
+    <style>
+        
+        h3 {
+            display: none;
+        }
+    </style>
+    <script>
+        function toggleH3() {
+            var h3Elements = document.getElementsByTagName("h3"); 
+            for (var i = 0; i < h3Elements.length; i++) {
+                if (h3Elements[i].style.display === "none") {
+                    h3Elements[i].style.display = "block"; 
+                } else {
+                    h3Elements[i].style.display = "none"; 
+                }
+            }
+        }
+    </script>
+</head>
+<body style="background-color: #1A1A1A;">
+
+<div class="s">
+    <h1>Turki Aljohani</h1>
+    <h3>Tabuk: Yarmouk </h3>
+    <h3> Phone: 0508155302</h3>
+    <h3>Email: trki4029@gmail.com</h3>
+    <button onclick="toggleH3()" class="btn" title="Show and hide personal information">Show | Hide</button> 
+</div>
+
+<div class="z">
+    <h4>Education</h4>
+    <hr>
+    <p>Tabuk university <br>   2021-Now</p>
+    <p>Bachelor's degree in<br>information technologe</p>
+</div>
+
+<div class="x">
+    <h4 style="margin-left: -7px;">Work experience</h4>
+    <hr>
+    <p>Nothing yet</p>
+</div>
+
+<div class="c">
+    <h4 style="margin-left: 33px;">Object</h4>
+    <hr>
+    <p>Software developer</p>
+</div>
+
+<div class="v">
+    <h4>Personal</h4>
+    <hr>
+    <p style="font-size: 25px;">intersts<p>
+        <p>
+        soccer<br><br>
+        volleyball<br><br>
+        swimming<br><br>
+        horseback riding<br><br>
+        the drawing</p>
+</div>
+
+<div class="b">
+    <h4>References</h4>
+    <hr>
+    <p> Available on request</p>
+
+</div>
+
+
+
+</body>
+</html>
